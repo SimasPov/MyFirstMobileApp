@@ -2,7 +2,6 @@ package com.example.myfirstmobileapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -22,7 +21,4 @@ public class MainActivity extends AppCompatActivity {
         this.tvMain.setText("Congratulations!");
     }
 
-    public void onBtnChangeColorClick(View view) {
-        this.tvMain.setTextColor(Color.RED);
-    }
 }
